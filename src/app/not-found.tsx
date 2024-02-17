@@ -8,7 +8,7 @@ export default function NotFound() {
     <div className="flex w-full flex-col items-center justify-center gap-4">
       <Image src="/icons/404.png" alt="" width={400} height={400} isBlurred />
       <div className="flex flex-col gap-4 text-center">
-        <h1 className="text-4xl sm:text-5xl font-bold">Page not Found</h1>
+        <h1 className="text-4xl font-bold sm:text-5xl">Page not Found</h1>
         <p className="font-mono text-muted-foreground">
           Sorry, but we cant find that page or it has been deleted or removed
         </p>
